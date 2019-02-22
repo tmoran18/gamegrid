@@ -25,7 +25,6 @@ body {
 }
 
 a {
-   color: #fff;
    text-decoration: none;
 }
 
@@ -226,6 +225,7 @@ h6 {
 #main-nav ul li a {
    padding: 0.75rem;
    font-size: 1.5rem;
+   color: #fff;
 }
 
 #main-nav ul li a.current {
@@ -283,6 +283,10 @@ h6 {
 
 #showcase .showcase-content p {
    margin-bottom: 2rem;
+}
+
+#showcase .showcase-content a {
+   color: #fff;
 }
 
 /* Home Articles */
@@ -360,6 +364,16 @@ h3 {
 }
 
 /* Article */
-.card a {
+#about .card a {
+   color: #fff;
+}
+
+#categories a {
    color: #000;
+}
+
+@media only screen and (max-width: 1204px) {
+   #main-nav .social {
+      display: none;
+   }
 }
